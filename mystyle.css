@@ -1,0 +1,135 @@
+@font-face
+{
+font-family: Aileron;
+src: url('/fonts/Aileron-Light.otf');
+font-family: Segan;
+src: url('/fonts/Segan-Light.ttf');
+}
+.mynavbar{
+  font-family: Segan;
+  background-color: #fafaf2;
+  margin:0;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 2;
+  border-radius: 0;
+}
+
+#home{
+  font-size: 26px;
+  color:white;
+}
+.navbar-nav>li>a {
+    font-size: 24px;
+}
+
+.image-container{
+  position: relative;
+  padding-top: 50px;
+}
+
+.img-text{
+  position: absolute;
+  color: #e9e9e9;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+}
+
+#main-image{
+  width: 100% !important;
+}
+
+#name{
+  top: 30%;
+  left: 18%;
+  font-size: 60px;
+  font-family: Aileron;
+}
+
+#profession{
+  top: 60%;
+  left: 15%;
+  font-size: 2.6em;
+  padding: 10px 30px 10px 30px;
+  font-family: Aileron;
+}
+
+#skils{
+  font-size: 0.6em;
+  font-family: Aileron;
+}
+.row{
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#portfolio-row{
+  background-color: #54a4be;
+
+}
+.projects{
+  padding: 20px;
+}
+#portfolio-text{
+  font-size: 26px;
+  padding: 95px;
+  padding-bottom: 60px;
+  margin-bottom: 0;
+  font-family: Segan;
+  color: white;
+  background-color: #54a4be;
+}
+.img-projects{
+  margin-bottom: 0px;
+}
+#contact-text{
+  font-size: 24px;
+  padding-top: 95px;
+  padding-bottom: 80px;
+  font-family: Segan;
+  color:white;
+}
+.contact{
+ padding-bottom: 100px;
+ background-color: #54a4be;
+}
+#first-line-contact-form{
+  margin-bottom: 20px;
+}
+#name-form{
+  padding-bottom: 20px;
+}
+
+textarea{
+  margin-bottom: 20px;
+  resize: none;
+}
+.submit-text{
+  margin-left: 15px;
+  resize: none;
+}
+#footer-section{
+  /*padding-bottom: 10px;*/
+  padding-right: 50px;
+  background-color: #fafaf2;
+}
+#join-me-text{
+  padding-right: 50px;
+  font-family: Segan;
+  font-size: 22px;
+}
+#icon-list{
+  padding-right: 150px;
+  margin-bottom: 0;
+}
+.fa {
+    padding: 10px;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
